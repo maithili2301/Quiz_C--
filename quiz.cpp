@@ -38,6 +38,8 @@ int main()
     // cout<<"Please Enter to Start:"<<endl;
     // cin.get();
     
+    //objects of class Question
+
     Question q1;
     Question q2;
     Question q3;
@@ -48,6 +50,8 @@ int main()
     Question q8;
     Question q9;
     Question q10;
+
+     //setting values using setvalues function 
 
     q1.setValues("Which of the following is the address operator?",
                 "@",
@@ -109,7 +113,7 @@ int main()
    }
 }
 
-
+//here defining function setValues() of class Question
 void Question::setValues(string q,string a1,string a2,string a3,string a4,int ca,int pa){
     Ques_text=q;
     Ans_1=a1;
